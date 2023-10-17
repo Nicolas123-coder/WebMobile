@@ -1,0 +1,106 @@
+body {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 26px;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 450;
+}
+
+.card {
+  background-image: url("./background.png");
+  width: 640px;
+  height: 410px;
+  transform: scale(0.8);
+  transform-origin: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  display: flex;
+  width: 640px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 113px;
+  width: 378px;
+}
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 640px;
+  height: 240px;
+  padding-top: 20px;
+}
+
+.profile {
+  flex: 1;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile img {
+  height: 180px;
+  width: 149px;
+}
+
+.card-info {
+  flex: 2;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: top;
+}
+
+.line {
+  display: flex;
+  height: 65px;
+  width: 95%;
+  background-color: white;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-line {
+  display: flex;
+  height: 35px;
+  width: 95%;
+  margin: 10px 0;
+  flex-flow: row wrap;
+}
+
+.sub-line-1 {
+  display: flex;
+  flex: 2.5;
+  background-color: white;
+  margin-right: 40px;
+  border-radius: 10px;
+  max-height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-line-2 {
+  display: flex;
+  flex: 2;
+  background-color: white;
+  border-radius: 10px;
+  max-height: 35px;
+  align-items: center;
+  justify-content: center;
+}

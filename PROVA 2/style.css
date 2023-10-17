@@ -1,0 +1,171 @@
+body {
+  height: 100dvh;
+  display: flex;
+  background-color: #33324b;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 90%;
+  border-radius: 3.7%;
+  flex-direction: column;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+  border-bottom: 10px;
+  margin-left: 20px;
+  max-width: 100%;
+}
+
+.image img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  max-height: 100%;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text {
+  width: 100%;
+  height: 50%;
+}
+
+.text p {
+  margin-top: 0;
+}
+
+.text-2 {
+  font-size: x-large;
+}
+
+.price {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.desconto {
+  display: flex;
+  border-radius: 20%;
+  background-color: orange;
+  font-size: large;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: space-between;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.quantidade {
+  display: flex;
+  background-color: #c8c7c5;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao {
+  display: flex;
+  background-color: #bb5c1c;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .title h1 {
+    margin-bottom: 10px;
+  }
+
+  .image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+  }
+
+  .image img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .text p {
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  h2 {
+    margin: 5px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+}
